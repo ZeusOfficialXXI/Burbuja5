@@ -1,0 +1,7 @@
+{
+	"prefix":"!",
+	"enabled":true,
+	"hasTTSuntil":0,
+	"sayNames":false,
+	"sayStatus":false
+}
