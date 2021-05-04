@@ -1,0 +1,35 @@
+{
+	"development": {
+		"DiscordClient": {
+			"autoReconnect": true,
+			"presence":{
+				"status":"Greeting People",
+				"afk":false
+			}
+		},
+		"Token": "",
+		"version": [0,7,79],
+		"config_id": "development",
+		"GoogleTTS": {
+			"keyFile": "gcp_keys/LLAVE DE GCP.json",
+			"projectId": "NOMBRE DEL PROYECTO",
+			"templateObject": {
+				"audioConfig": {
+					"audioEncoding": "OGG_OPUS",
+					"pitch": 0,
+					"speakingRate": 1.00
+				},
+				"input": {
+					"text": "Texto de Ejemplo"
+				},
+				"voice": {
+					"languageCode": "es-ES",
+					"name": "es-ES-Standard-A"
+				}
+			}
+		}
+	},
+	"production": {
+		"config_id": "production"
+	}
+}
